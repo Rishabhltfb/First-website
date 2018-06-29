@@ -1,0 +1,147 @@
+body{
+background:url("Images/wallpaper.jpg");
+background-size:cover;
+background-position:fixed;
+}
+#prakhar{
+width:250px;
+height:250px;
+border-radius:50%;
+border-width:3px;
+border-color:grey;
+box-shadow:0px 10px 20px rgba(0,0,0,0.29),0 16px 16px rgba(0,0,0,0.23);
+border-style:solid;
+margin-top:10px;
+margin-left:10px;
+
+}
+
+
+
+
+
+
+
+
+#prakhar:hover{
+transform:scale(1.1);
+/*animation:animate 5s linear infinite;*/
+
+}
+/*@keyframes animate{
+0%{margin-left:0px;}
+50%{margin-left:50%;}
+100%{margin-left:0px;}
+}*/
+
+h2{
+color:lime;
+margin-left:30px;
+font-size:50px;
+font-weight:bold;
+
+}
+p{
+color:white;
+font-size:20px;
+}
+
+
+/* Rotating Box Code starts from here  */
+
+.rotating-box{
+width:400px;
+height:400px;
+margin:10px auto;
+perspective:800px;
+}
+
+.single-rb{
+width:400px;
+animation:rotate 15s linear infinite;
+transform-style:preserve-3d;
+margin-top:120px;
+
+}
+
+.single-rb img{
+width:400px;
+height:400px;
+}
+
+.single-rb div{
+width:400px;
+height:400px;
+position:absolute;
+}
+.front-side{
+transform:translateZ(200px);
+}
+.back-side{
+transform:rotateY(180deg) translateZ(200px);
+}
+
+.left-side{
+transform:rotateY(-90deg) translateX(-200px);
+transform-origin:left;
+}
+
+.right-side{
+transform:rotateY(90deg) translateX(200px);
+transform-origin:right;
+}
+
+.top-side{
+transform:rotateX(-90deg) translateY(-200px);
+transform-origin:top;
+}
+
+.bottom-side{
+transform:rotateX(90deg) translateY(200px);
+transform-origin:bottom;
+}
+
+@keyframes rotate{
+0%{transform:rotateY(0);}
+100%{transform:rotateY(360deg);}
+}
+
+#gallery{
+font-family:proxima nova;
+font-weight:bold;
+color:yellow;
+font-size:50px;
+}
+
+.loader{
+position:absolute;
+right:-250px;
+top:60px;
+
+transform:translate(-50%,-50%);
+}
+.loader h1{
+margin:0px;
+padding:0px;
+text-transform:uppercase;
+font-size:5em;
+color:rgba(255,255,255,0);
+background-image:url(Images/red2.png);
+background-repeat:repeat-x;
+-webkit-background-clip:text;
+animation:animate 15s linear infinite;
+}
+
+@keyframes animate{
+0%{background-position:left 0px top 80px;}
+40%{background-position:left 800px top -40px;}
+80%{background-position:left 1800px top -40px;}
+100%{background-position:left 2400px top 80px;}
+}
+
+
+
+footer{
+color:white;
+font-size:25px;
+}

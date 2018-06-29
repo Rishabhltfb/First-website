@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>
+</title>
+<script language="javascript">
+	
+	function showPass(form){
+	var user=form.username.value;
+	var pass=form.pwd.value;
+	var user1="admin" //this is username
+	var pass1="password" //this is password
+	var user2="Rishabh"
+	var pass2="hi"
+	
+	if(user==user1 && pass==pass1){
+	document.write("Welcome!!");
+	}
+	else if(user==user2 && pass==pass2){
+	document.write("second code successful");
+	}
+	else{
+	window.open("first.html");
+	}
+	}
+	
+	
+	</script>
+	<style>
+	/*body{
+	background-color:blue;
+	}*/
+	
+	#button {
+position:absolute;
+padding:5px 30px 10px 30px;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:200px;
+height:60px;
+text-align:center;
+line-height:60px;
+color:#fff;
+font-size:24px;
+text-transform:uppercase;
+text-decoration:none;
+font-family:proxima nova;
+box-sizing:border-box;
+background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+background-size:400%;
+border-radius:30px;
+z-index:1;
+}
+
+#button:hover{
+animation:animate 8s linear infinite;
+}
+@keyframes animate{
+0%{background-position:0%;
+}
+100%{background-position:400%;
+}
+}
+#button:before{
+content:'';
+position:absolute;
+top:-5px;
+left:-5px;
+right:-5px;
+bottom:-5px;
+z-index:-1;
+background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+background-size:400%;
+border-radius:40px;
+opacity:0;
+transition:0.5s;
+
+}
+#button:hover:before{
+filter:blur(20px);
+opacity:1;
+animation:animate 8s linear infinite;
+}
+
+.meri{
+background-color:black;
+font-family:proxima nova;
+opacity:0.3;
+padding:10px 10px 10px 10px;
+border-color:white;
+border-radius:50%;
+margin-right:91.5%;
+
+}
+#hello{
+color:white;
+}
+
+	</style>
+  </head>
+  <body>
+  <form>
+  <input type="text" name="username" placeholder="username" > </input>   <br> <br>
+  <input type="password" name="pwd" placeholder="password" >  </input> <br> <br>
+  <input type="button" value="Log In" onclick="showPass(form)"></input>
+  
+  </form>
+  
+  <a href="first.html" id="button">  Go Back !</a>
+
+  <div class="meri"> <p id="hello">Hey Youtube! </p>
+  </div>
+  
+  </body>
+</html>

@@ -1,0 +1,77 @@
+body{
+background: url(Images/Thor.png);
+}
+
+#logo{	
+perspective:300px;
+display:block;
+margin:300px auto;
+height:70px;
+border:2px solid lime;
+position:absolute;
+bottom:280px;
+left:90%;
+animation:logo 5s linear infinite;
+
+}
+
+@keyframes logo{
+0%{transform:rotateY(0deg);}
+100%{transform:rotateY(360deg);}
+}
+
+
+.login-box{
+width:320px;
+	height:420px;
+	background:rgba(0, 0, 0,0.5);
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing:border-box;
+	}
+	#copy{
+color:white;
+font-size:25px;
+margin:590px 1200px 0px 0px ;
+padding:10px 10px 10px 10px;
+
+
+}
+[type="button"]{
+margin-left:115px;
+margin-top:20px;
+padding:10px 10px 10px 10px;
+background-color:white;
+
+}
+[type="button"]:hover{
+transform:scale(1.1);
+
+}
+[type="text"]{
+margin-left:60px;
+padding:10px 10px 10px 10px;
+}
+[type="password"]{
+margin-left:60px;
+padding:10px 10px 10px 10px;
+}
+
+
+
+.parra2{
+margin-left: 60px;
+color:#00FFFF;
+}
+.parra1{
+margin-left: 80px;
+color:red;
+font-weight:bold;
+}
+.parra3{
+margin-left: 60px;
+color:#00FFFF;
+}

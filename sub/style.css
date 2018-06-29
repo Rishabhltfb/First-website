@@ -1,0 +1,92 @@
+body {
+    margin : 0 ;
+	padding : 0 ;
+    background : url(Images/Thor.png);
+	background-position : centre;
+	font-family : sans-serif ;
+	}
+	
+#logo{	
+perspective:300px;
+display:block;
+margin:300px auto;
+height:70px;
+border:2px solid lime;
+position:absolute;
+bottom:280px;
+left:90%;
+animation:logo 5s linear infinite;
+
+}
+
+@keyframes logo{
+0%{transform:rotateY(0deg);}
+100%{transform:rotateY(360deg);}
+}
+	
+	
+	
+	
+	
+.login-box{
+    width:320px;
+	height:420px;
+	background:rgba(0, 0, 0,0.5);
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing:border-box;
+	}
+	.question{
+	font-family: Snell Roundhand;
+	color: #66ff66 ;
+	text-align:center;
+	font-size:40px;
+	}
+.login-box button{
+border:none;
+outline:none;
+height:40px;
+
+}
+#copy{
+color:white;
+font-size:25px;
+margin:590px 1200px 0px 0px ;
+padding:10px 10px 10px 10px;
+
+
+}
+.b1{
+font-family:Snell Roundhand;
+font-size:25px;
+color:yellow;
+text-align:center;
+line-height:10px;
+background-color:green;
+padding:30px 30px 30px 30px;
+margin:30px 30px 30px 30px;
+border-radius:10%;
+}
+.b2{
+border-radius:10%;
+font-family:Snell Roundhand;
+background-color:red;
+text-align:center;
+line-height:10px;
+color:white;
+font-size:20px;
+padding:30px 30px 30px 30px;
+margin:10px 10px 10px 10px;
+}	
+button:hover{
+animation-name:color;
+animation-duration:500ms;
+animation-fill-mode:forwards;
+}
+@keyframes color{
+100%{background-color:transparent;
+transform:scale(1.9);}
+}
