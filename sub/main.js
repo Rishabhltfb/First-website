@@ -29,6 +29,6 @@ else if(name==name5 && pass==pass5){
 window.open("Vidhi.html");
 }
 else{
-window.open("first.html");
+window.open("https://rishabhltfb.github.io/");
 }
 }
