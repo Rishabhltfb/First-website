@@ -11,6 +11,8 @@ var name4="Deeva"
 var pass4="Pizza"
 var name5="Vidhi"
 var pass5="Smile"
+var name6="Shubham"
+var pass6="Coco"
 
 
 if(name==name1 && pass==pass1){
@@ -28,6 +30,9 @@ window.open("Deeva.html");
 else if(name==name5 && pass==pass5){
 window.open("Vidhi.html");
 }
+else if(name==name6 && pass==pass6){
+window.open("Shubham.html");
+}  
 else{
 window.open("https://rishabhltfb.github.io");
 }
