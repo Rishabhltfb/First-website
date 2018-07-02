@@ -16,24 +16,24 @@ var pass6="Coco"
 
 
 if(name==name1 && pass==pass1){
-window.open("Prakhar.html");
+window.location="Prakhar.html";
 }
 else if(name==name2 && pass==pass2){
-window.open("new.html");
+window.location="new.html";
 }
 else if(name==name3 && pass==pass3){
-window.open("Shivani.html");
+  window.location="Shivani.html";
 }
 else if(name==name4 && pass==pass4){
-window.open("Deeva.html");
+window.location="Deeva.html";
 }
 else if(name==name5 && pass==pass5){
-window.open("Vidhi.html");
+window.location="Vidhi.html";
 }
 else if(name==name6 && pass==pass6){
-window.open("Shubham.html");
+window.location="Shubham.html";
 }  
 else{
-window.open("https://rishabhltfb.github.io");
+window.location="https://rishabhltfb.github.io";
 }
 }
