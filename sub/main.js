@@ -7,8 +7,6 @@ var name2="Rishabh"
 var pass2="Hello"
 var name3="Shivani"
 var pass3="Idiot"
-var name4="Deeva"
-var pass4="Pizza"
 var name5="Vidhi"
 var pass5="Smile"
 var name6="Shubham"
@@ -23,9 +21,6 @@ window.location="new.html";
 }
 else if(name==name3 && pass==pass3){
   window.location="Shivani.html";
-}
-else if(name==name4 && pass==pass4){
-window.location="Deeva.html";
 }
 else if(name==name5 && pass==pass5){
 window.location="Vidhi.html";
